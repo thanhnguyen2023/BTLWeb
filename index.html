@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="logo">
+            <div class="container">
+                <ul>
+                    <li><a href=""><img style="width: 150px" src="images/IT Mart.png" alt=""></a></li>
+                    <li><input type="text" placeholder="Bạn muốn tìm gì ..."><i class="fa-solid fa-magnifying-glass"></i></i></li>
+                    <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i></i>Giỏ hàng</button></a></li>
+                    <li><a href=""><button>Đơn hàng đã giao</button></a></li>
+                    <li><a href="https://thanhnguyen2023.github.io/Tam/"><button><i class="fa-solid fa-user"></i>Đăng nhập</button></a></li>
+                    <li><a href="">24h săn sale</a></li>
+                    <li><a href="">Tin tức</a></li>
+                    <li><a href="">Hỏi đáp</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="menu">
+            <ul id="main-menu">
+                <li><a href=""><i class="fa-solid fa-drumstick-bite"></i></i>Thịt</a></li>
+                <li><a href=""><i class="fa-solid fa-fish"></i>Cá-Hải sản</a></li>
+                <li><a href="https://log2408.github.io/l0824.github.io/sanpham.html"><i class="fa-solid fa-carrot"></i></i>Rau củ-Hoa quả</a></li>
+                <li><a href="http://thaomp.infinityfreeapp.com/BTL-STMN/super2.html"><i class="fa-solid fa-cow"></i>Sản phẩm sữa</a></li>
+                <li><a href=""><i class="fa-solid fa-cake-candles"></i>Bánh kẹo-Đồ ngọt</a></li>
+                <li><a href=""><i class="fa-solid fa-wine-bottle"></i>Đồ uống</a></li>
+                <li><a href=""><i class="fa-solid fa-laptop"></i>Thiết bị điện tử</a></li>
+                <li><a href=""><i class="fa-solid fa-shirt"></i>Quần áo</a></li>
+                <li><a href="">Dịch vụ tiện ích</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="slider">
+            <div class="container">
+                <div class="slider-content">
+                    <div class="slider-content-left">
+                        <div class="slider-content-left-top">
+                            <a href=""><img src="images/Slider1.jpg" alt=""></a>
+                            <a href=""><img src="images/Slider2.jpg" alt=""></a>
+                            <a href=""><img src="images/Slider3.jpg" alt=""></a>
+                            <a href=""><img src="images/Slider4.jpg" alt=""></a>
+                            <div class="arrow">
+                                <i class="fa-solid fa-chevron-left" id="left"></i>
+                                <i class="fa-solid fa-chevron-right" id="right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-content-right">
+                        <li><a href=""><img src="images/Sale1.jpg" alt=""></a></li>
+                        <li><a href=""><img src="images/Sale1.jpg" alt=""></a></li>
+                        <li><a href=""><img src="images/Sale2.jpg" alt=""></a></li>
+                        <li><a href=""><img src="images/Sale2.jpg" alt=""></a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="one-content">
+            <div class="container">
+                <div class="product-one-content">
+                    <div class="product-one-content-title">
+                        <h2>Săn Sale mỗi ngày</h2>
+                    </div>
+                    <div class="product-one-content-items">
+                        <div class="product-one-content-item">
+                            <img src="images/item1.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Táo New Zealand</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: 1KG</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 159.000 <sup>đ</sup></li>
+                                    <li id="sale">210.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item">
+                            <img src="images/item2.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Bắp cải tím</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: 1KG</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 43.000 <sup>đ</sup></li>
+                                    <li id="sale">57.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item">
+                            <img src="images/item3.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Bí Ngòi Xanh</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: 1KG</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 35.600 <sup>đ</sup></li>
+                                    <li id="sale">44.300 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item">
+                            <img src="images/item4.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Cam lòng vàng</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: 1G</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 35.000 <sup>đ</sup></li>
+                                    <li id="sale">49.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item">
+                            <img src="images/item5.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Ớt ngọt xanh</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: 1KG</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 51.000 <sup>đ</sup></li>
+                                    <li id="sale">68.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="product-one-content-items">
+                        <div class="product-one-content-item">
+                            <img src="images/item6.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">móng giò</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: 0.4KG</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 35.165 <sup>đ</sup></li>
+                                    <li id="sale">43.976 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item">
+                            <img src="images/item7.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Thịt nạc dăm đầu giòn</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: 0.3KG</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 68.234 <sup>đ</sup></li>
+                                    <li id="sale">85.334 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item">
+                            <img src="images/item8.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Sườn st. louis</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: 0.44KG</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 103.245 <sup>đ</sup></li>
+                                    <li id="sale">129.356 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item">
+                            <img src="images/item9.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Nước giặt Ariel hoa oải hương</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: Gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 203.000 <sup>đ</sup></li>
+                                    <li id="sale">270.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item">
+                            <img src="images/item10.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Bơ lạt westgold 250g</li>
+                                <li id="deal">Mua sắm online giá deal bất ngờ</li>
+                                <li id="kg">ĐVT: gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 75.400 <sup>đ</sup></li>
+                                    <li id="sale">98.100 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="img">
+            <img src="images/Online.png" alt="">
+        </div>
+<!-------------------------------------------------Sale------------------------------------------------------->        
+        <section class="khuyen-mai">
+            <nav class="sale">
+                <div class="product-sale-content">
+                    <div class="product-sale-content-title">
+                        <h2>Khuyến mãi cho mẹ và bé</h2>
+                    </div>
+                    <ul> 
+                        <li><img src="images/Salee1.webp" alt=""></li>
+                        <li><img src="images/Salee2.webp" alt=""></li>
+                        <li><img src="images/Salee3.webp" alt=""></li>
+                        <li><img src="images/Salee4.webp" alt=""></li>
+                        <li><img src="images/Salee5.webp" alt=""></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+<!-------------------------------------------------three-content------------------------------------------------->
+        <section class="three-content">
+            <div class="container">
+                <div class="product-three-content">
+                    <div class="product-one-content-title">
+                        <h2>Bánh kẹo - Đồ ngọt</h2>
+                    </div>
+                    <div class="product-one-content-items">
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item1.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Khoai tây lay's vị tảo biển nori</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 25.400 <sup>đ</sup></li>
+                                    <li id="sale">33.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item2.jpg" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Xoài xấy dẻo</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 32.700<sup>đ</sup></li>
+                                    <li id="sale">41.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item3.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Lay's stack vị cay nồng</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: lọ</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 27.400 <sup>đ</sup></li>
+                                    <li id="sale">33.333 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item4.jpg" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Snack mực</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 22.500<sup>đ</sup></li>
+                                    <li id="sale">27.000<sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item5.jpg" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Kẹo tứ vị hộp 450g</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: hộp</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 94.440 <sup>đ</sup></li>
+                                    <li id="sale">123.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="product-one-content-items">
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item6.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">hạt hướng dương matin rang gói 250g</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 48.400 <sup>đ</sup></li>
+                                    <li id="sale">57.099 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item7.jpg" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">kẹo mềm alpenliete hương trái cây</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 13.300<sup>đ</sup></li>
+                                    <li id="sale">15.500 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item8.jpg" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">kẹo dẻo hương trái cây chupa chups</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 12.200 <sup>đ</sup></li>
+                                    <li id="sale">14.400 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item9.jpeg" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">socola trứng kinder joy girl</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: quả</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 28.900 <sup>đ</sup></li>
+                                    <li id="sale">33.300 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="three-content">
+                            <img src="images/3item10.jpg" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">bánh socola kitkat</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 13.700<sup>đ</sup></li>
+                                    <li id="sale">15.500<sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="service">
+            <nav class="sale">
+                <div class="product-service-content">
+                    <div class="product-service-content-title">
+                        <h2>Các dịch vụ tiện ích</h2>
+                    </div>
+                    <ul> 
+                        <li><img src="images/service1.png" alt=""></li>
+                        <li><img src="images/service2.png" alt=""></li>
+                        <li><img src="images/service3.png" alt=""></li>
+                        <li><img src="images/service4.png" alt=""></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+<!-------------------------------------------------two-content------------------------------------------------->  
+        <section class="two-content">
+            <div class="container">
+                <div class="product-two-content">
+                    <div class="product-two-content-title">
+                        <h2>Halloween Vui Vẻ</h2>
+                    </div>
+                    <div class="product-one-content-items">
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item1.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Bí Ngô</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: quả</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 42.500 <sup>đ</sup></li>
+                                    <li id="sale">50.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item2.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Đèn dầu hình quả bí ngô</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: Cái</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 60.000 <sup>đ</sup></li>
+                                    <li id="sale">89.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item3.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Đèn led hình bí ngô</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: Dây</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 129.000 <sup>đ</sup></li>
+                                    <li id="sale">150.900 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item4.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Đồ hóa trang harry Potter</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: Bộ</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 270.957<sup>đ</sup></li>
+                                    <li id="sale">300.456 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item5.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Bóng bay</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: Túi</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 14.500 <sup>đ</sup></li>
+                                    <li id="sale">15.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="product-one-content-items">
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item6.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Đồ hóa trang hình bộ xương</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: Bộ</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 118.000 <sup>đ</sup></li>
+                                    <li id="sale">135.355 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item7.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Mũ phù thủy Halloween</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: Cái</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 25.000<sup>đ</sup></li>
+                                    <li id="sale">35.244 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item8.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Lồng đèn họa tiết đầu lâu</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: Cái</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 60.000 <sup>đ</sup></li>
+                                    <li id="sale">68.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item9.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Đồ hóa trang hình ma mặt cười</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: Bộ</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 200.000 <sup>đ</sup></li>
+                                    <li id="sale">270.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                        <div class="product-one-content-item" id="two-content">
+                            <img src="images/2item10.png" alt="">
+                            <div class="product-one-content-item-text">
+                                <li id="name">Halloween mặt nạ trắng</li>
+                                <li id="deal">Deal ngập tràn</li>
+                                <li id="kg">ĐVT: gói</li>
+                                <ul class="price">
+                                    <li id="price">Giá: 19.000<sup>đ</sup></li>
+                                    <li id="sale">23.000 <sup>đ</sup></li>
+                                </ul>
+                                <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Thêm vào giỏ</button></a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="end">
+            <li><img src="images/1.png" alt=""><p>Sản phẩm an toàn</p></li>
+            <li><img src="images/2.png" alt=""><p>Chất lượng đảm bảo</p></li>
+            <li><img src="images/3.png" alt=""><p>Dịch vụ vượt trội</p></li>
+            <li><img src="images/4.png" alt=""><p>Giao hàng siêu tốc</p></li>
+        </div>
+        <section class="content-footer">
+            <nav class="footer">
+                <div class="container-footer">
+                    <ul>
+                        <li><img src="images/Mart.png" alt="">
+                            <p id="ct">Công ty cổ phần dịch vụ thương mại <br>tổng hợp IT Mart</p>
+                            <p id="a">Mã số doanh nghiệp: 0124854292</p>
+                            <p id="a">Đăng ký lần đầu ngày 24 tháng 10 năm 2023</p>
+                        </li>
+                        <li class="me"><p>Về chúng tôi</p>
+                            <a href="" id="gt">Giới thiệu về IT Mart</a>
+                            <a href="" id="gt">Danh sách của hàng</a>
+                            <a href="" id="gt">Quản lý chất lượng</a>
+                            <a href="" id="gt">Chính sách bảo mật</a>
+                            <a href="" id="gt">Điều khoản và điều kiện giao dịch</a>
+                        </li>
+                        <li class="sp"><p>Hỗ trợ khách hàng</p>
+                            <a href="" id="gt">Trung tâm hỗ trợ khách hàng</a>
+                            <a href="" id="gt">Chính sách giao hàng</a>
+                            <a href="" id="gt">Chính sách thanh toán</a>
+                            <a href="" id="gt">Chính sách đổi trả</a>
+                            <a href="" id="gt">Đánh giá góp ý</a>
+                            <a href="" id="gt">Danh sách trúng thưởng</a>
+                        </li>
+                        <li class="care"><p>Chăm sóc khách hàng</p>
+                            <a href="" id="gt">Mua hàng Online: 098122445</a>
+                            <a href="" id="gt">Email: itmart@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>          
